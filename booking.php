@@ -47,7 +47,7 @@ padding-top: 1px;">
         <li class="nav-item p-2">
             <a class="nav-link" style="
             font-size:23px;
-            color:rgb(0, 0, 0);" href="#">Home</a>
+            color:rgb(0, 0, 0);" href="index.php">Home</a>
         </li>
         <li class="nav-item p-2">
             <a class="nav-link" style="
@@ -73,7 +73,7 @@ padding-top: 1px;">
 
     <h2>Book Now</h2>
     <br>
-    <form action="" method = "post" class="row g-1 needs-validation login">
+    <form action="scripts/booking_script.php" method = "post" class="row g-1 needs-validation login">
         <label for="sFirstname" class = "form-label">First Name</label>
         <input type="text" name="sFirstname" id="sFirstname" class="form-control" value required>
 
