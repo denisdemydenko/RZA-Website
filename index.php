@@ -61,7 +61,7 @@ padding-top: 1px;">
         <li class="nav-item p-2">
             <a class="nav-link" style="
                 font-size:23px;
-                color:rgb(0, 0, 0);" href="#">Hotel Booking</a>
+                color:rgb(0, 0, 0);" href="booking.php">Ticket Booking</a>
         </li>
     </ul>
 </nav>
@@ -150,7 +150,7 @@ padding-top: 1px;">
                     background-color: rgb(216, 196, 13);
                     margin-right:300px;
                     font-family: Montserrat,sans-serif;
-                    width: 320px;">
+                    width: 320px;" onclick="location.href='booking.php'">
 
                         Book Tickets Now!
 

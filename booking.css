@@ -1,0 +1,74 @@
+.booking_block{
+    margin: auto;
+    width: 600px;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.booking_block h2{
+
+    font-weight: bold;
+    font-size: 40px;
+    font-family: Montserrat,sans-serif;
+}
+
+.login{
+    padding: 30px;
+    font-size: 20px !important;
+    font-family: Montserrat,sans-serif !important;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: rgb(247, 247, 247);
+}
+
+.login button{
+
+    width: 400px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-family: Montserrat,sans-serif;
+    font-size: 20px;
+    background-color: #4e8757ff;
+    color: white;
+    border-color: white;
+}
+
+.login button:hover{
+
+    background-color: #4e8757ff;
+}
+
+.checkbox{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 15px;
+    margin-bottom: 0 !important;
+}
+
+.checkbox label{
+
+    margin-top: 3px;
+}
+
+.login .form-control:required:invalid,
+.login .form-select:required:invalid {
+    border: 2px solid #dc3545;
+}
+
+.login .form-control:required:valid,
+.login .form-select:required:valid {
+    border: 2px solid #198754;
+}
+
+.login .form-control:focus,
+.login .form-select:focus {
+    outline: none;
+    box-shadow: none;
+}
