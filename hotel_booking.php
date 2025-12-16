@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Book Now</title>
+    <title>Hotel Booking</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <style>
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
@@ -68,34 +68,3 @@ padding-top: 1px;">
 </nav>
 
 </header>
-
-<section class = "booking_block">
-
-    <h2>Book Now</h2>
-    <br>
-    <form action="scripts/booking_script.php" method = "post" class="row g-1 needs-validation login">
-        <label for="sFirstname" class = "form-label">First Name</label>
-        <input type="text" name="sFirstname" id="sFirstname" class="form-control" value required>
-
-        <label for="sDate" class="form-label">Choose Date</label>
-        <input type="date" name="sDate" id="sDate" class="form-control" min="<?php echo date('Y-m-d'); ?>">
-
-        
-        <label for="sEmail" class="form-label">Email Address</label>
-        <input type="email" name="sEmail" id="sEmail" class = "form-control"  placeholder="name@example.com">
-
-        <div class="input-group mb-3">
-            <label for="sTicketType" class="input-group-text">Ticket type</label>
-            <select name="sTicketType" id="sTicketType" class="form-select">
-                <option selected disabled>Choose...</option>
-                <option value="1">Adult (16+) - £15.00</option>
-                <option value="2">Child (5+) - £10.00</option>
-                <option value="3">Senior (65+) - £12.00</option>
-            </select>
-        </div>
-    
-        <button type="submit">Submit Booking</button>
-
-    </form>
-
-</section>

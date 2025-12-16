@@ -46,17 +46,17 @@ padding-top: 1px;">
         <li class="nav-item p-2">
             <a class="nav-link" style="
             font-size:23px;
-            color:rgb(0, 0, 0);" href="#">Home</a>
-        </li>
-        <li class="nav-item p-2">
-            <a class="nav-link" style="
-                font-size:23px;
-                color:rgb(0, 0, 0);" href="#">Contact</a>
+            color:rgb(0, 0, 0);" href="index.php">Home</a>
         </li>
         <li class="nav-item p-2">
             <a class="nav-link" style="
                 font-size:23px;
                 color:rgb(0, 0, 0);" href="#">About Us</a>
+        </li>
+        <li class="nav-item p-2">
+            <a class="nav-link" style="
+                font-size:23px;
+                color:rgb(0, 0, 0);" href="hotel_booking.php">Hotel Booking</a>
         </li>
         <li class="nav-item p-2">
             <a class="nav-link" style="
