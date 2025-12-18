@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Book Now</title>
+    <title>Gallery</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <style>
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
     </style>
-    <link rel="stylesheet" href="booking.css">
+    <link rel="stylesheet" href="gallery.css">
 </head>
 <body style = "width: 100%;
 height: 100%;
@@ -74,33 +74,29 @@ padding-top: 1px;">
 
 </header>
 
-<section class = "booking_block">
+<div class = "heading">
+    <h1><b>Our Gallery!</b></h1>
+</div>
 
-    <h2>Book Now</h2>
-    <br>
-    <form action="scripts/booking_script.php" method = "post" class="row g-1 needs-validation login">
-        <label for="sFirstname" class = "form-label">First Name</label>
-        <input type="text" name="sFirstname" id="sFirstname" class="form-control" value required>
+<section class = "gallery">
 
-        <label for="sDate" class="form-label">Choose Date</label>
-        <input type="date" name="sDate" id="sDate" class="form-control" min="<?php echo date('Y-m-d'); ?>">
-
-        
-        <label for="sEmail" class="form-label">Email Address</label>
-        <input type="email" name="sEmail" id="sEmail" class = "form-control"  placeholder="name@example.com">
-
-        <div class="input-group mb-3">
-            <label for="sTicketType" class="input-group-text">Ticket type</label>
-            <select name="sTicketType" id="sTicketType" class="form-select">
-                <option selected disabled>Choose...</option>
-                <option value="1">Adult (16+) - £15.00</option>
-                <option value="2">Child (5+) - £10.00</option>
-                <option value="3">Senior (65+) - £12.00</option>
-            </select>
-        </div>
-    
-        <button type="submit">Submit Booking</button>
-
-    </form>
+    <img src="galery_images/chetah.svg" alt="cheetah_image">
+    <img src="galery_images/elephant.svg" alt="elephant_image">
+    <img src="galery_images/gorilla.svg" alt="gorilla_image">
+    <img src="galery_images/hippo.svg" alt="hippo_image">
+    <img src="galery_images/otter.svg" alt="otters_image">
+    <img src="galery_images/racoon.svg" alt="racoon_image">
+    <img src="galery_images/red_panda.svg" alt="red_panda_image">
+    <img src="galery_images/turtle.svg" alt="turtle_image">
 
 </section>
+
+    <footer class = "text-center p-3" style = "
+    color: rgba(255, 255, 255, 0.322);
+    background-color:rgb(47, 82, 52);
+    height: 60px; font-size:20px">
+
+        © 2025 Riget Zoo Adventures
+    </footer>
+
+

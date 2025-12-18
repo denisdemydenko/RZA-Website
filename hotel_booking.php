@@ -36,7 +36,7 @@ padding-top: 1px;">
      style="
      margin-top:100px;
      margin-left:600px;
-     width: 600px;
+     width: 700px;
      height:80px;
      background-color: white;
      border-radius: 20px;">
@@ -63,6 +63,11 @@ padding-top: 1px;">
             <a class="nav-link" style="
                 font-size:23px;
                 color:rgb(0, 0, 0);" href="booking.php">Ticket Booking</a>
+        </li>
+        <li class="nav-item p-2">
+            <a class="nav-link" style="
+                font-size:23px;
+                color:rgb(0, 0, 0);" href="gallery.html">Gallery</a>
         </li>
     </ul>
 </nav>
